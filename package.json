@@ -1,0 +1,16 @@
+{
+  "name": "Bookshelf",
+  "description":"Books organiser app.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/phoenixweiss/bookshelf",
+  "author": "PAVEL TKACHEV",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug"
+  },
+  "devDependencies": {
+    "electron": "^8.2.3"
+  }
+}
