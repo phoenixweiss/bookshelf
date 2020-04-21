@@ -1,6 +1,6 @@
 {
   "name": "Bookshelf",
-  "description":"Books organiser app.",
+  "description": "Books organiser app.",
   "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/phoenixweiss/bookshelf",
@@ -11,6 +11,7 @@
     "dev": "electron . --debug"
   },
   "devDependencies": {
+    "devtron": "^1.4.0",
     "electron": "^8.2.3"
   }
 }
