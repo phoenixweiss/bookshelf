@@ -2,10 +2,14 @@ const {
   app,
   BrowserWindow
 } = require('electron')
-
+const Store = require('electron-store');
+const store = new Store();
 const debug = /--debug/.test(process.argv[2])
 
 let mainWindow = null
+
+store.set('unicorn', 'Azaza');
+console.log(store.get('unicorn'));
 
 function initialize() {
 
